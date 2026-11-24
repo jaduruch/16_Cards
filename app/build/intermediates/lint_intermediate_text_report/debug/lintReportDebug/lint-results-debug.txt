@@ -1,0 +1,160 @@
+/Users/janaruch/Documents/dev/16_Cards/app/src/main/AndroidManifest.xml:2: Warning: Attribute enableOnBackInvokedCallback is only used in API level 33 and higher (current min is 23) [UnusedAttribute]
+    <application android:theme="@style/AppTheme" android:label="@string/brand" android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher" android:allowBackup="true" android:enableOnBackInvokedCallback="true" android:supportsRtl="true">
+                                                                                                                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedAttribute":
+   This check finds attributes set in XML files that were introduced in a
+   version newer than the oldest version targeted by your application (with
+   the minSdkVersion attribute).
+
+   This is not an error; the application will simply ignore the attribute.
+   However, if the attribute is important to the appearance or functionality
+   of your application, you should consider finding an alternative way to
+   achieve the same result with only available attributes, and then you can
+   optionally create a copy of the layout in a layout-vNN folder which will be
+   used on API NN or higher where you can take advantage of the newer
+   attribute.
+
+   Note: This check does not only apply to attributes. For example, some tags
+   can be unused too, such as the new <tag> element in layouts introduced in
+   API 21.
+
+/Users/janaruch/Documents/dev/16_Cards/app/src/main/res/values-en/strings.xml:10: Warning: Formatting %d followed by words ("too"): This should probably be a plural rather than a string [PluralsCandidate]
+    <string name="over">%1$d too high – put some cards back.</string>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/janaruch/Documents/dev/16_Cards/app/src/main/res/values/strings.xml:11: Warning: Formatting %d followed by words ("bis"): This should probably be a plural rather than a string [PluralsCandidate]
+    <string name="remaining">Noch %1$d bis zum Ziel.</string>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/janaruch/Documents/dev/16_Cards/app/src/main/res/values-en/strings.xml:11: Warning: Formatting %d followed by words ("left"): This should probably be a plural rather than a string [PluralsCandidate]
+    <string name="remaining">%1$d left to reach the target.</string>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/janaruch/Documents/dev/16_Cards/app/src/main/res/values/strings.xml:15: Warning: Formatting %d followed by words ("von"): This should probably be a plural rather than a string [PluralsCandidate]
+    <string name="card">Karte %1$d, %2$d von 4, %3$s</string>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/janaruch/Documents/dev/16_Cards/app/src/main/res/values/strings.xml:27: Warning: Formatting %d followed by words ("von"): This should probably be a plural rather than a string [PluralsCandidate]
+    <string name="round_progress">Runde %1$d von %2$d</string>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/janaruch/Documents/dev/16_Cards/app/src/main/res/values-en/strings.xml:28: Warning: Formatting %d followed by words ("completed"): This should probably be a plural rather than a string [PluralsCandidate]
+    <string name="run_finished">%1$d completed · %2$s</string>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/janaruch/Documents/dev/16_Cards/app/src/main/res/values/strings.xml:28: Warning: Formatting %d followed by words ("geschafft"): This should probably be a plural rather than a string [PluralsCandidate]
+    <string name="run_finished">%1$d geschafft · %2$s</string>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/janaruch/Documents/dev/16_Cards/app/src/main/res/values/strings.xml:44: Warning: Formatting %d followed by words ("Ziele"): This should probably be a plural rather than a string [PluralsCandidate]
+    <string name="info_timed">%1$der\n\nLöse %1$d Ziele nacheinander. Nach jedem Treffer wird automatisch eine neue Zahl erzeugt und die Karten werden zurückgelegt.\n\nDie Uhr misst die Gesamtzeit. Nach dem letzten Ziel stoppt sie und das Ergebnis wird in der lokalen %1$der-Bestenliste gespeichert.\n\nZurücksetzen beeinflusst die Gesamtzeit nicht. Wenn du ein laufendes Spiel über Home beendest, wird es nicht gespeichert.</string>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/janaruch/Documents/dev/16_Cards/app/src/main/res/values-en/strings.xml:44: Warning: Formatting %d followed by words ("targets"): This should probably be a plural rather than a string [PluralsCandidate]
+    <string name="info_timed">%1$der\n\nSolve %1$d targets in a row. Each correct total automatically generates a new number and returns the cards to their stacks.\n\nThe stopwatch measures total time. After the final target, it stops and the result is saved to the local %1$der scoreboard.\n\nReset does not affect total time. Leaving an unfinished run using Home discards it.</string>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "PluralsCandidate":
+   This lint check looks for potential errors in internationalization where
+   you have translated a message which involves a quantity and it looks like
+   other parts of the string may need grammatical changes.
+
+   For example, rather than something like this:
+     <string name="try_again">Try again in %d seconds.</string>
+   you should be using a plural:
+      <plurals name="try_again">
+           <item quantity="one">Try again in %d second</item>
+           <item quantity="other">Try again in %d seconds</item>
+       </plurals>
+   This will ensure that in other languages the right set of translations are
+   provided for the different quantity classes.
+
+   (This check depends on some heuristics, so it may not accurately determine
+   whether a string really should be a quantity. You can use tools:ignore to
+   filter out false positives.
+
+   https://developer.android.com/guide/topics/resources/string-resource.html#Plurals
+
+/Users/janaruch/Documents/dev/16_Cards/app/src/main/res/values/strings.xml:5: Warning: The resource R.string.instruction appears to be unused [UnusedResources]
+    <string name="instruction">Antippen zum Auswählen und Zurücklegen</string>
+            ~~~~~~~~~~~~~~~~~~
+/Users/janaruch/Documents/dev/16_Cards/app/src/main/res/values/strings.xml:20: Warning: The resource R.string.home_settings appears to be unused [UnusedResources]
+    <string name="home_settings">Sprache und Erscheinungsbild kannst du oben ändern.</string>
+            ~~~~~~~~~~~~~~~~~~~~
+/Users/janaruch/Documents/dev/16_Cards/app/src/main/res/values/strings.xml:23: Warning: The resource R.string.timed_description appears to be unused [UnusedResources]
+    <string name="timed_description">Automatisch zur nächsten Zahl. Die Gesamtzeit zählt für die lokale Bestenliste.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/janaruch/Documents/dev/16_Cards/app/src/main/res/values/strings.xml:24: Warning: The resource R.string.free_description appears to be unused [UnusedResources]
+    <string name="free_description">Spiele in deinem Tempo. Neue Zahl per Button, ohne gespeicherte Zeiten.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/janaruch/Documents/dev/16_Cards/app/src/main/res/values/strings.xml:34: Warning: The resource R.string.info_body appears to be unused [UnusedResources]
+    <string name="info_body">Ziel: Wähle Karten aus, bis ihre Summe der Zielzahl entspricht. Jeder Stapel enthält vier Karten mit dem Wert 6, 7, 8 oder 9.\n\nTippe auf eine Karte, um sie auszuwählen oder zurückzulegen. Auch der freie Bereich am unteren Ende eines Stapels wählt eine weitere Karte aus. Zurücksetzen legt nur die Karten zurück; die Zeit bleibt unverändert.\n\nFree Play: Die Uhr stoppt beim ersten Erreichen des Ziels. Über „Neue Zufallszahl“ startest du eine neue Runde. Zeiten werden nicht gespeichert.\n\n5er / 10er: Löse fünf oder zehn Ziele. Nach jedem Treffer folgt automatisch eine neue Zahl. Am Ende wird die Gesamtzeit in der lokalen Bestenliste gespeichert.\n\nDie Uhr pausiert im Hintergrund. Ein abgebrochenes Spiel wird nicht gespeichert.\n\nSprache und Hell-/Dunkel-Modus kannst du auf der Startseite ändern.</string>
+            ~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+/Users/janaruch/Documents/dev/16_Cards/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml:1: Warning: The application adaptive icon is missing a monochrome tag [MonochromeLauncherIcon]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+
+   Explanation for issues of type "MonochromeLauncherIcon":
+   If android:roundIcon and android:icon are both in your manifest, you must
+   either remove the reference to android:roundIcon if it is not needed; or,
+   supply the monochrome icon in the drawable defined by the android:roundIcon
+   and android:icon attribute.
+
+   For example, if android:roundIcon and android:icon are both in the
+   manifest, a launcher might choose to use android:roundIcon over
+   android:icon to display the adaptive app icon. Therefore, your themed
+   application iconwill not show if your monochrome attribute is not also
+   specified in android:roundIcon.
+
+/Users/janaruch/Documents/dev/16_Cards/app/src/main/java/ch/cards/sixteen/MainActivity.java:293: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+            option.setText(text(THEME_NAMES[i]) + (selected ? "    ✓" : ""));
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+/Users/janaruch/Documents/dev/16_Cards/app/src/main/java/ch/cards/sixteen/MainActivity.java:239: Warning: Use "Gravity.END" instead of "Gravity.RIGHT" to ensure correct behavior in right-to-left locales [RtlHardcoded]
+                button.setGravity(Gravity.TOP | Gravity.RIGHT);
+                                                        ~~~~~
+/Users/janaruch/Documents/dev/16_Cards/app/src/main/java/ch/cards/sixteen/MainActivity.java:404: Warning: Use "Gravity.END" instead of "Gravity.RIGHT" to ensure correct behavior in right-to-left locales [RtlHardcoded]
+        popup.showAsDropDown(language, 0, dp(6), Gravity.RIGHT);
+                                                         ~~~~~
+
+   Explanation for issues of type "RtlHardcoded":
+   Using Gravity#LEFT and Gravity#RIGHT can lead to problems when a layout is
+   rendered in locales where text flows from right to left. Use Gravity#START
+   and Gravity#END instead. Similarly, in XML gravity and layout_gravity
+   attributes, use start rather than left.
+
+   For XML attributes such as paddingLeft and layout_marginLeft, use
+   paddingStart and layout_marginStart. NOTE: If your minSdkVersion is less
+   than 17, you should add both the older left/right attributes as well as the
+   new start/end attributes. On older platforms, where RTL is not supported
+   and the start/end attributes are unknown and therefore ignored, you need
+   the older left/right attributes. There is a separate lint check which
+   catches that type of error.
+
+   (Note: For Gravity#LEFT and Gravity#START, you can use these constants even
+   when targeting older platforms, because the start bitmask is a superset of
+   the left bitmask. Therefore, you can use gravity="start" rather than
+   gravity="left|start".)
+
+0 errors, 19 warnings

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/janaruch/.gradle/daemon/8.9/ch.cards.sixteen.app-debug-4:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "/Users/janaruch/.gradle/daemon/8.9/ch.cards.sixteen.app-main-6:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "ch.cards.sixteen.app-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "ch.cards.sixteen.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/janaruch/.gradle/daemon/8.9/ch.cards.sixteen.app-debug-4:/drawable_ic_palette.xml.flat",
+        "source": "/Users/janaruch/.gradle/daemon/8.9/ch.cards.sixteen.app-main-6:/drawable/ic_palette.xml"
+    },
+    {
+        "merged": "/Users/janaruch/.gradle/daemon/8.9/ch.cards.sixteen.app-debug-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/janaruch/.gradle/daemon/8.9/ch.cards.sixteen.app-main-6:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/janaruch/.gradle/daemon/8.9/ch.cards.sixteen.app-debug-4:/drawable_ic_home.xml.flat",
+        "source": "/Users/janaruch/.gradle/daemon/8.9/ch.cards.sixteen.app-main-6:/drawable/ic_home.xml"
+    }
+]

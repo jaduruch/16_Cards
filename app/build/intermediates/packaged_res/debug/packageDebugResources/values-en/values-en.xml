@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="brand">16 Cards</string>
+    <string name="cancel">Cancel</string>
+    <string name="card">Card %1$d, %2$d of 4, %3$s</string>
+    <string name="cards">YOUR CARDS</string>
+    <string name="choose_mode">Choose your mode</string>
+    <string name="dark">Switch to dark mode</string>
+    <string name="free_description">Play at your own pace. Get a new number using the button. Times are not saved.</string>
+    <string name="free_mode">Free play</string>
+    <string name="home">Home</string>
+    <string name="home_settings">Adjust language and appearance using the controls above.</string>
+    <string name="info_body">Goal: Select cards until their total matches the target. Each stack contains four cards worth 6, 7, 8, or 9.\n\nTap a card to select it or put it back. Reset returns only the cards, the stopwatch is unchanged.\n\nFree Play: The stopwatch stops when you first reach the target. Use “New random number” to start another round. Times are not saved.\n\n5er / 10er: Solve five or ten targets. Each correct total automatically generates a new target. Your total time is saved to the local scoreboard after the final round.\n\nThe stopwatch pauses in the background. Unfinished games are not saved.\n\nAdjust language and light/dark mode on the home screen.</string>
+    <string name="info_close">Close</string>
+    <string name="info_free">Free Play\n\nThe stopwatch stops when you first reach the target. Use “New random number” to start another round and reset the time.\n\nTimes are not saved. The Home button returns directly to the home screen.</string>
+    <string name="info_home">Choose a mode:\n\nFree Play: Individual targets without saved times.\n\n5er / 10er: Solve five or ten targets in a row. Total time is saved to a separate local scoreboard for each mode.\n\nUse the icons above to choose your language, light/dark mode, and color theme.\n\nThe scoreboards show the three fastest completed runs for each mode.</string>
+    <string name="info_rules">Select cards until their total matches the target. Each stack contains four cards worth 6, 7, 8, or 9.\n\nTap a card to select it or put it back. Reset returns only the cards. The stopwatch pauses while this help is open or the app is in the background.</string>
+    <string name="info_timed">%1$der\n\nSolve %1$d targets in a row. Each correct total automatically generates a new number and returns the cards to their stacks.\n\nThe stopwatch measures total time. After the final target, it stops and the result is saved to the local %1$der scoreboard.\n\nReset does not affect total time. Leaving an unfinished run using Home discards it.</string>
+    <string name="info_title">How to play</string>
+    <string name="instruction">Tap to select cards or put them back</string>
+    <string name="language">Change language: German or English</string>
+    <string name="leave_message">Return home? The current game will end without saving.</string>
+    <string name="light">Switch to light mode</string>
+    <string name="next">New random number  ↗</string>
+    <string name="no_scores">No completed runs yet.</string>
+    <string name="over">%1$d too high – put some cards back.</string>
+    <string name="remaining">%1$d left to reach the target.</string>
+    <string name="reset">Reset</string>
+    <string name="round_progress">Round %1$d of %2$d</string>
+    <string name="run_finished">%1$d completed · %2$s</string>
+    <string name="score_saved">The three best total times are kept on the local scoreboard.</string>
+    <string name="scoreboard">Local scoreboard · Top 3</string>
+    <string name="selected">selected, tap to put back</string>
+    <string name="solved">Well done! Your time: %1$s</string>
+    <string name="sum">Current total: %1$d</string>
+    <string name="target">YOUR TARGET</string>
+    <string name="theme_burgundy">Burgundy</string>
+    <string name="theme_forest">Forest</string>
+    <string name="theme_ocean">Ocean</string>
+    <string name="theme_petrol">Petrol</string>
+    <string name="theme_title">Color theme</string>
+    <string name="theme_violet">Violet</string>
+    <string name="timed_description">Automatically advance to the next number. Total time counts towards the local scoreboard.</string>
+    <string name="timed_mode">%1$der</string>
+    <string name="unselected">tap to select</string>
+</resources>

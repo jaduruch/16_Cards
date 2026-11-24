@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="launcher_background">#F2F7FA</color>
+    <string name="brand">16 Cards</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="card">Karte %1$d, %2$d von 4, %3$s</string>
+    <string name="cards">DEINE KARTEN</string>
+    <string name="choose_mode">Wähle deinen Modus</string>
+    <string name="dark">Dunklen Modus aktivieren</string>
+    <string name="free_description">Spiele in deinem Tempo. Neue Zahl per Button, ohne gespeicherte Zeiten.</string>
+    <string name="free_mode">Freies Spiel</string>
+    <string name="home">Startseite</string>
+    <string name="home_settings">Sprache und Erscheinungsbild kannst du oben ändern.</string>
+    <string name="info_body">Ziel: Wähle Karten aus, bis ihre Summe der Zielzahl entspricht. Jeder Stapel enthält vier Karten mit dem Wert 6, 7, 8 oder 9.\n\nTippe auf eine Karte, um sie auszuwählen oder zurückzulegen. Auch der freie Bereich am unteren Ende eines Stapels wählt eine weitere Karte aus. Zurücksetzen legt nur die Karten zurück; die Zeit bleibt unverändert.\n\nFree Play: Die Uhr stoppt beim ersten Erreichen des Ziels. Über „Neue Zufallszahl“ startest du eine neue Runde. Zeiten werden nicht gespeichert.\n\n5er / 10er: Löse fünf oder zehn Ziele. Nach jedem Treffer folgt automatisch eine neue Zahl. Am Ende wird die Gesamtzeit in der lokalen Bestenliste gespeichert.\n\nDie Uhr pausiert im Hintergrund. Ein abgebrochenes Spiel wird nicht gespeichert.\n\nSprache und Hell-/Dunkel-Modus kannst du auf der Startseite ändern.</string>
+    <string name="info_close">Schließen</string>
+    <string name="info_free">Free Play\n\nDie Uhr stoppt, sobald du das Ziel zum ersten Mal erreichst. Mit „Neue Zufallszahl“ startest du eine neue Runde und setzt die Zeit zurück.\n\nZeiten werden nicht gespeichert. Der Home-Button führt direkt zur Startseite.</string>
+    <string name="info_home">Wähle einen Modus:\n\nFree Play: Einzelne Ziele ohne gespeicherte Zeiten.\n\n5er / 10er: Löse fünf oder zehn Ziele nacheinander. Die Gesamtzeit wird in der jeweiligen lokalen Bestenliste gespeichert.\n\nÜber die Symbole oben kannst du Sprache, Hell-/Dunkel-Modus und Farbthema auswählen.\n\nDie Bestenlisten zeigen die drei schnellsten abgeschlossenen Spiele je Modus.</string>
+    <string name="info_rules">Wähle Karten, bis ihre Summe der Zielzahl entspricht. Jeder Stapel enthält vier Karten mit dem Wert 6, 7, 8 oder 9.\n\nTippe auf eine Karte, um sie auszuwählen oder zurückzulegen. Zurücksetzen legt nur die Karten zurück. Die Uhr pausiert, solange diese Hilfe geöffnet ist oder die App im Hintergrund ist.</string>
+    <string name="info_timed">%1$der\n\nLöse %1$d Ziele nacheinander. Nach jedem Treffer wird automatisch eine neue Zahl erzeugt und die Karten werden zurückgelegt.\n\nDie Uhr misst die Gesamtzeit. Nach dem letzten Ziel stoppt sie und das Ergebnis wird in der lokalen %1$der-Bestenliste gespeichert.\n\nZurücksetzen beeinflusst die Gesamtzeit nicht. Wenn du ein laufendes Spiel über Home beendest, wird es nicht gespeichert.</string>
+    <string name="info_title">Spielanleitung</string>
+    <string name="instruction">Antippen zum Auswählen und Zurücklegen</string>
+    <string name="language">Sprache ändern: Deutsch oder Englisch</string>
+    <string name="leave_message">Zur Startseite zurückkehren? Das laufende Spiel wird beendet und nicht gespeichert.</string>
+    <string name="light">Hellen Modus aktivieren</string>
+    <string name="next">Neue Zufallszahl  ↗</string>
+    <string name="no_scores">Noch keine abgeschlossenen Spiele.</string>
+    <string name="over">Um %1$d zu hoch – lege Karten zurück.</string>
+    <string name="remaining">Noch %1$d bis zum Ziel.</string>
+    <string name="reset">Zurücksetzen</string>
+    <string name="round_progress">Runde %1$d von %2$d</string>
+    <string name="run_finished">%1$d geschafft · %2$s</string>
+    <string name="score_saved">Die drei besten Gesamtzeiten bleiben in der lokalen Bestenliste gespeichert.</string>
+    <string name="scoreboard">Lokale Bestenliste · Top 3</string>
+    <string name="selected">ausgewählt, antippen zum Zurücklegen</string>
+    <string name="solved">Geschafft! Deine Zeit: %1$s</string>
+    <string name="sum">Aktueller Wert: %1$d</string>
+    <string name="target">DEINE ZIELZAHL</string>
+    <string name="theme_burgundy">Bordeaux</string>
+    <string name="theme_forest">Wald</string>
+    <string name="theme_ocean">Ozean</string>
+    <string name="theme_petrol">Petrol</string>
+    <string name="theme_title">Farbthema</string>
+    <string name="theme_violet">Violett</string>
+    <string name="timed_description">Automatisch zur nächsten Zahl. Die Gesamtzeit zählt für die lokale Bestenliste.</string>
+    <string name="timed_mode">%1$der</string>
+    <string name="unselected">antippen zum Auswählen</string>
+    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#185E7B</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#FFFFFF</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">#FFFFFF</item>
+    </style>
+</resources>
